@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Script
 
 In the project directory, you can run:
 
@@ -14,57 +14,45 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Project Setup and Technology Used:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+To solve the given problem, I used the following technologies and tools:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. React: A JavaScript library for building user interfaces.
+2. Material UI: A popular UI component library for React that provides pre-styled components and themes.
+3. create-react-app: A tool that sets up a basic React project structure with all the necessary configurations and dependencies.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### NPM Packages Used:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+1. react-router-dom: A package that provides routing capabilities for React applications.
+2. react-shimmer-effect: A package that enables the creation of shimmer loading effects for UI elements.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Time Spent Breakdown:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Based on the provided information, here is a breakdown of the time spent on different tasks:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. User Interface (UI) Development: 6 hours
+2. API Integration: 1 hour
+3. Documentation: 3 hours
 
-## Learn More
+### Solution Approach:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Project Setup: I used the create-react-app tool to set up the initial project structure. This tool provides a ready-to-use React project with all the necessary configurations.
 
-### Code Splitting
+2. UI Development: I utilized Material UI to create the user interface. Material UI offers a wide range of pre-styled components that can be easily customized and integrated into React applications. By leveraging these components, I built the desired UI for the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+3. API Integration: To fetch data from an API, I used the built-in fetch() function provided by modern web browsers. This function allows making HTTP requests and receiving responses. I implemented the necessary API calls to retrieve the required data.
 
-### Analyzing the Bundle Size
+4. Shimmer Loading Effect: While fetching data from the API, I used the react-shimmer-effect package to display a loading effect that mimics the structure of the data being loaded. This provides a visual indication to the user that content is being fetched and helps improve the user experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+5. Documentation: Finally, I spent 3 hours creating documentation for the project. The documentation includes details about the time spent on different tasks, technologies used, npm packages utilized, and an overview of the solution approach.
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall, I followed a structured approach, utilizing React and Material UI for UI development, fetch() for API integration, and react-shimmer-effect for displaying loading indicators. The project was set up using create-react-app, and a detailed documentation was created to capture all the relevant information.
