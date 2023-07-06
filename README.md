@@ -48,7 +48,7 @@ Based on the provided information, here is a breakdown of the time spent on diff
 
 1. Project Setup: I used the create-react-app tool to set up the initial project structure. This tool provides a ready-to-use React project with all the necessary configurations.
 
-2. UI Development: I utilized Material UI to create the user interface. Material UI offers a wide range of pre-styled components that can be easily customized and integrated into React applications. By leveraging these components, I built the desired UI for the project. This project is fully responsive.
+2. UI Development: I utilized Material UI to create the user interface. Material UI offers a wide range of pre-styled components that can be easily customized and integrated into React applications. By leveraging these components and using custom CSS, I built the desired UI for the project. This project is fully responsive.
 
 3. API Integration: To fetch data from an API, I used the built-in fetch() function provided by modern web browsers. This function allows making HTTP requests and receiving responses. I implemented the necessary API calls to retrieve the required data.
 
