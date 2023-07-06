@@ -50,7 +50,7 @@ Based on the provided information, here is a breakdown of the time spent on diff
 
 2. UI Development: I utilized Material UI to create the user interface. Material UI offers a wide range of pre-styled components that can be easily customized and integrated into React applications. By leveraging these components and using custom CSS, I built the desired UI for the project. This project is fully responsive.
 
-3. API Integration: To fetch data from an API, I used the built-in fetch() function provided by modern web browsers. This function allows making HTTP requests and receiving responses. I implemented the necessary API calls to retrieve the required data.
+3. API Integration: To fetch data from an API, I used the built-in fetch() function provided by modern web browsers and useEffect Hook so that when the page renders it fetches the data at that time only. This function allows making HTTP requests and receiving responses. I implemented the necessary API calls to retrieve the required data. Data received is stored using Use State Hook.
 
 4. Shimmer Loading Effect: While fetching data from the API, I used the react-shimmer-effect package to display a loading effect that mimics the structure of the data being loaded. This provides a visual indication to the user that content is being fetched and helps improve the user experience.
 
